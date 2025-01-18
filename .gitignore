@@ -6,6 +6,9 @@ npm-debug.log
 # Frontend build
 frontend/build/
 
+# Ignore node_modules in the frontend
+frontend/node_modules/
+
 # Backend build
 backend/node_modules/
 
