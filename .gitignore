@@ -3,6 +3,9 @@ node_modules/
 npm-debug.log
 .env
 
+# Frontend build
+frontend/build/
+
 # Backend build
 backend/node_modules/
 
