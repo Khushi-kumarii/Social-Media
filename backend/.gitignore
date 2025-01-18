@@ -1,0 +1,47 @@
+# Node.js specific
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+*.log.*
+
+# Ignore environment variable files (to protect sensitive data like DB credentials, API keys)
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore build files (if using TypeScript, Babel, or bundling tools)
+dist/
+build/
+
+# Ignore npm-debug and yarn-debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore package-lock.json or yarn.lock if you don’t want them in version control (optional)
+package-lock.json
+yarn.lock
+
+# Ignore coverage folder (if running tests with coverage report)
+coverage/
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore operating system-specific files
+.DS_Store  # macOS-specific
+Thumbs.db  # Windows-specific
+
+# Ignore any custom logs directory or files
+custom-logs/
+*.log.*
+.vercel
